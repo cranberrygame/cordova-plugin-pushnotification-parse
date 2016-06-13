@@ -71,7 +71,7 @@
         </config-file>
 
         <source-file src="src/android/Parse-1.9.4.jar" target-dir="libs" />
-        <source-file src="src/android/bolts-android-1.2.0.jar" target-dir="libs" />
+        <framework src="com.parse.bolts:bolts-android:1.2.0">
 		<source-file src="src/android/ParseCrashReporting-1.9.4.jar" target-dir="libs" />
 		<source-file src="src/android/ParseFacebookUtilsV4-1.9.4.jar" target-dir="libs" />
         <source-file src="src/android/ParsePushNotificationPlugin.java" target-dir="src/com/cranberrygame/cordova/plugin/pushnotification/parsepushnotification" />
